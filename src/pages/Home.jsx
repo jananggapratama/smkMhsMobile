@@ -39,7 +39,7 @@ const Home = () => {
               style={{
                 paddingTop: 12,
                 fontSize: 14,
-                color: 'black',
+                color: 'grey',
                 marginHorizontal: 16,
               }}>
               Selamat datang di
@@ -74,7 +74,7 @@ const Home = () => {
               <TouchableOpacity>
                 <Image
                   resizeMode="cover"
-                  style={{height: 170, marginTop: 20, width: 170}}
+                  style={{height: 170, marginTop: 20, width: 170, borderRadius: 10, marginRight: 38,}}
                   source={{
                     uri: 'https://images.unsplash.com/photo-1541832676-9b763b0239ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHw0fHxsZW1hayUyQnJpY2V8ZW58MHx8fHwxNjk4Mjk0NDY1fDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450',
                   }}
@@ -92,7 +92,7 @@ const Home = () => {
             </View>
             <Image
               resizeMode="cover"
-              style={{height: 170, marginTop: 20, width: 170}}
+              style={{height: 170, marginTop: 20, width: 170, borderRadius: 10, marginLeft: 25,}}
               source={{
                 uri: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w0Mzc0NDd8MHwxfHNlYXJjaHwyfHxidXJnZXJ8ZW58MHx8fHwxNjk4MjgzMzg0fDA&ixlib=rb-4.0.3&q=85&q=85&fmt=jpg&crop=entropy&cs=tinysrgb&w=450',
               }}
