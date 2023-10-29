@@ -1,7 +1,7 @@
 import {View, Image, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View>
       <View
@@ -71,7 +71,7 @@ const Home = () => {
           </View>
           <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
             <View>
-              <TouchableOpacity>
+              <TouchableOpacity onPress={() => navigation.navigate('Detail')}>
                 <Image
                   resizeMode="cover"
                   style={{height: 170, marginTop: 20, width: 170, borderRadius: 10, marginRight: 38,}}
